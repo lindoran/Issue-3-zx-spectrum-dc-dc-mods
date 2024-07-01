@@ -1,0 +1,24 @@
+optional replacement components, maybe needed:
+
+    C50, C34 - 22uF / 24V electrolytic,  horizontal
+    C44, C45 - 100uF / 24V electrolytic, horizontal
+    R62 - 22 ohm 1/4 watt resistor (original is 15ohm, only replace if bad)
+
+required:
+
+    U2 - TSR 1-2450 Switching +5v regulator (or equivalent switching regulator)
+    C49 (replaced with diode) - BZX55C12 - 12v .5 watt DO-35 Zener Diode
+    D15 - 1N5817 1A D0-41 Schottky Rectifier diode.  
+    polyimide tape
+     1A 12v Regulated, center negative power supply.  you should buy a UL listed supply that has over current protection at the very least, output clamping and TVS are a plus.
+
+optional 4116 support components:
+
+    1x1 piece of plated through hole proto board
+    short length of 24 gauge wire (red)
+    short length of 24 gauge wire (black)
+    short length of 30 gauge wire (red)
+    D12 - 1N5817 1A D0-41 Schottky Rectifier diode.
+    C100, C101  - 10uF / 16v electrolytic capacitors
+    U3 - ICL7660S - cmos voltage converter
+    A small 8 pin dip socket for U3.
